@@ -18,7 +18,9 @@ export default function TotalBudgetCard() {
 	amount={amount}
 	name="Total"
 	max={max}
-	grey>
+	grey
+	hideButtons
+	>
 	</BudgetCard>
   )
 }
